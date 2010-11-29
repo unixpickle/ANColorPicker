@@ -1,0 +1,362 @@
+TANColorPicker
+v7
+r0
+t312561895.253057
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/Info.plist ANColorPicker-Info.plist
+cCompileXIB /Users/alex/Desktop/ANColorPicker/MainWindow.xib
+cCompileXIB /Users/alex/Desktop/ANColorPicker/ANColorPickerViewController.xib
+cCpResource build/Debug-iphonesimulator/ANColorPicker.app/wheel.png wheel.png
+cCpResource build/Debug-iphonesimulator/ANColorPicker.app/brightness.png brightness.png
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch.gch ANColorPicker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/main.o /Users/alex/Desktop/ANColorPicker/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerAppDelegate.o /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerViewController.o /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPicker.o /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Users/alex/Desktop/ANColorPicker/ANColorPickerViewController.xib
+c000000004CF111560000000000001A5D
+t1290867030
+s6749
+
+N/Users/alex/Desktop/ANColorPicker/ANColorPicker_Prefix.pch
+c000000004CF1115600000000000000C3
+t1290867030
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.h
+c000000004CF111E1000000000000014E
+t1290867169
+s334
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m
+c000000004CF11930000000000000056F
+t1290869040
+s1391
+i"ANColorPicker.h"
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.h
+c000000004CF111560000000000000203
+t1290867030
+s515
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m
+c000000004CF111560000000000000AB3
+t1290867030
+s2739
+i"ANColorPickerAppDelegate.h"
+i"ANColorPickerViewController.h"
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h
+c000000004CF119390000000000000118
+t1290869049
+s280
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m
+c000000004CF119620000000000000641
+t1290869090
+s1601
+i"ANColorPickerViewController.h"
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.h
+c000000004CE9490100000000000004AF
+t1290356993
+s1199
+i<UIKit/UIKit.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m
+c000000004CE95D850000000000002532
+t1290362245
+s9522
+i"ANImageBitmapRep.h"
+
+N/Users/alex/Desktop/ANColorPicker/MainWindow.xib
+c000000004CF111560000000000004E71
+t1290867030
+s20081
+
+N/Users/alex/Desktop/ANColorPicker/brightness.png
+c000000004CF117E20000000000000FD7
+t1290868706
+s4055
+
+N/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPicker.LinkFileList
+c000000004CF1196400000000000002C5
+t1290869092
+s709
+
+N/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPicker.o
+t2
+s0
+
+N/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerAppDelegate.o
+t2
+s0
+
+N/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerViewController.o
+t2
+s0
+
+N/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANImageBitmapRep.o
+t1290869095
+s33452
+
+N/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/main.o
+t1290869095
+s6352
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app
+t2
+s0
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app.dSYM
+t2
+s0
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/ANColorPicker
+t2
+s0
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/ANColorPickerViewController.nib
+t1290869092
+s795
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/Info.plist
+t1290869092
+s615
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/MainWindow.nib
+t1290869092
+s1135
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/PkgInfo
+t1290869092
+s8
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/brightness.png
+t1290869092
+s4055
+
+N/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/wheel.png
+t1290869092
+s102428
+
+N/Users/alex/Desktop/ANColorPicker/main.m
+c000000004CF11156000000000000016F
+t1290867030
+s367
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ANColorPicker/wheel.png
+c000000004CF1111D000000000001901C
+t1290866973
+s102428
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC121DB00000000000004FE
+t1287725531
+s1278
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch.gch
+t1290869094
+s15461584
+
+NANColorPicker-Info.plist
+c000000004CF11156000000000000038D
+t1290867030
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312561892#312561892#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPicker.o /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312561895.094450
+e312561895.163891
+r0
+xCompileC
+xbuild/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPicker.o
+x/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:9:
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.h:15: error: expected specifier-qualifier-list before 'ANImageBitmapRep'
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m: In function '-[ANColorPicker initWithFrame:]':
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: error: 'wheelAdjusted' undeclared (first use in this function)
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: error: (Each undeclared identifier is reported only once
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: error: for each function it appears in.)
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: 'UIImage' may not respond to '-imageBitmapRep'
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: (Messages without a matching method signature
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: will be assumed to return 'id' and accept
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: '...' as arguments.)
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m: In function '-[ANColorPicker drawRect:]':
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:42: error: 'wheelAdjusted' undeclared (first use in this function)
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m: In function '-[ANColorPicker dealloc]':
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:49: error: 'wheelAdjusted' undeclared (first use in this function)
+lSLF07#2@65"Compile /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561895#312561895#0(1555"In file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:9:/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.h:15: error: expected specifier-qualifier-list before 'ANImageBitmapRep'/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m: In function '-[ANColorPicker initWithFrame:]':/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: error: 'wheelAdjusted' undeclared (first use in this function)/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: error: (Each undeclared identifier is reported only once/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: error: for each function it appears in.)/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: 'UIImage' may not respond to '-imageBitmapRep'/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: (Messages without a matching method signature/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: will be assumed to return 'id' and accept/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:31: warning: '...' as arguments.)/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m: In function '-[ANColorPicker drawRect:]':/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:42: error: 'wheelAdjusted' undeclared (first use in this function)/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m: In function '-[ANColorPicker dealloc]':/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m:49: error: 'wheelAdjusted' undeclared (first use in this function)6(4@59"Expected specifier-qualifier-list before 'ANImageBitmapRep'312561895#83#129#2(7@79"In file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561895#18446744073709551615#0#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561840#9#0#9#0#0"0(13@120"Expected specifier-qualifier-list before 'ANImageBitmapRep' in /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.h312561895#18446744073709551615#0#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.h312559969#15#0#15#0#0"0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.h312559969#15#0#15#0#19"expected * before *0(4@55"'wheelAdjusted' undeclared (first use in this function)312561895#318#125#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561840#31#0#31#0#43"'*' undeclared (first use in this function)0(22@46"'UIImage' may not respond to '-imageBitmapRep'312561895#665#118#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561840#31#0#31#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312561895#783#117#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561840#31#0#31#0#0"0(4@55"'wheelAdjusted' undeclared (first use in this function)312561895#1206#125#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561840#42#0#42#0#43"'*' undeclared (first use in this function)0(4@55"'wheelAdjusted' undeclared (first use in this function)312561895#1430#125#0(6@57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m312561840#49#0#49#0#43"'*' undeclared (first use in this function)0(0#0#57"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m8620290624#2065"    cd /Users/alex/Desktop/ANColorPicker    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-generated-files.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-own-target-headers.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-all-target-headers.hmap -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-project-headers.hmap -F/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator -I/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources/i386 -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch -c /Users/alex/Desktop/ANColorPicker/Classes/ANColorPicker.m -o /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPicker.o1#
+
+CCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerAppDelegate.o /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312561894.920934
+e312561895.091888
+r0
+xCompileC
+xbuild/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerAppDelegate.o
+x/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m:10:
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h:12: error: expected specifier-qualifier-list before 'ANColorPicker'
+lSLF07#2@76"Compile /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m312561894#312561895#0(235"In file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m:10:/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h:12: error: expected specifier-qualifier-list before 'ANColorPicker'1(4@56"Expected specifier-qualifier-list before 'ANColorPicker'312561895#95#140#2(7@90"In file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m312561895#18446744073709551615#0#0(6@68"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m312559830#10#0#10#0#0"0(13@131"Expected specifier-qualifier-list before 'ANColorPicker' in /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h312561895#18446744073709551615#0#0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h312561849#12#0#12#0#0"0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h312561849#12#0#12#0#19"expected * before *0(0#0#68"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m8620693024#2087"    cd /Users/alex/Desktop/ANColorPicker    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-generated-files.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-own-target-headers.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-all-target-headers.hmap -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-project-headers.hmap -F/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator -I/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources/i386 -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch -c /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerAppDelegate.m -o /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerAppDelegate.o1#
+
+CCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerViewController.o /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312561895.092054
+e312561895.148365
+r0
+xCompileC
+xbuild/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerViewController.o
+x/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:9:
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h:12: error: expected specifier-qualifier-list before 'ANColorPicker'
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m: In function '-[ANColorPickerViewController viewDidLoad]':
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: 'picker' undeclared (first use in this function)
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: (Each undeclared identifier is reported only once
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: for each function it appears in.)
+o/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: 'ANColorPicker' undeclared (first use in this function)
+lSLF07#2@79"Compile /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m312561895#312561895#0(889"In file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:9:/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h:12: error: expected specifier-qualifier-list before 'ANColorPicker'/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m: In function '-[ANColorPickerViewController viewDidLoad]':/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: 'picker' undeclared (first use in this function)/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: (Each undeclared identifier is reported only once/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: for each function it appears in.)/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m:37: error: 'ANColorPicker' undeclared (first use in this function)3(4@56"Expected specifier-qualifier-list before 'ANColorPicker'312561895#97#140#2(7@93"In file included from /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m312561895#18446744073709551615#0#0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m312561890#9#0#9#0#0"0(13@131"Expected specifier-qualifier-list before 'ANColorPicker' in /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h312561895#18446744073709551615#0#0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h312561849#12#0#12#0#0"0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.h312561849#12#0#12#0#19"expected * before *0(4@48"'picker' undeclared (first use in this function)312561895#368#132#0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m312561890#37#0#37#0#43"'*' undeclared (first use in this function)0(4@55"'ANColorPicker' undeclared (first use in this function)312561895#750#139#0(6@71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m312561890#37#0#37#0#43"'*' undeclared (first use in this function)0(0#0#71"/Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m3346848984993452032#2093"    cd /Users/alex/Desktop/ANColorPicker    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-generated-files.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-own-target-headers.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-all-target-headers.hmap -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-project-headers.hmap -F/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator -I/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources/i386 -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch -c /Users/alex/Desktop/ANColorPicker/Classes/ANColorPickerViewController.m -o /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANColorPickerViewController.o1#
+
+CCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANImageBitmapRep.o /Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312561895.148464
+e312561895.252965
+r1
+xCompileC
+xbuild/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANImageBitmapRep.o
+x/Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m312561895#312561895#0(0"0(0#0#60"/Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m8616824896#2071"    cd /Users/alex/Desktop/ANColorPicker    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-generated-files.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-own-target-headers.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-all-target-headers.hmap -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-project-headers.hmap -F/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator -I/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources/i386 -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch -c /Users/alex/Desktop/ANColorPicker/Classes/ANImageBitmapRep.m -o /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/ANImageBitmapRep.o0#
+
+CCompileC build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/main.o /Users/alex/Desktop/ANColorPicker/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312561894.919434
+e312561895.094363
+r1
+xCompileC
+xbuild/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/ANColorPicker/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/alex/Desktop/ANColorPicker/main.m312561894#312561895#0(0"0(0#0#40"/Users/alex/Desktop/ANColorPicker/main.m8617501536#2039"    cd /Users/alex/Desktop/ANColorPicker    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-generated-files.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-own-target-headers.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-all-target-headers.hmap -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-project-headers.hmap -F/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator -I/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources/i386 -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch -c /Users/alex/Desktop/ANColorPicker/main.m -o /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/alex/Desktop/ANColorPicker/ANColorPickerViewController.xib
+s312561892.455944
+e312561892.904608
+r1
+xCompileXIB
+x/Users/alex/Desktop/ANColorPicker/ANColorPickerViewController.xib
+lSLF07#2@42"CompileXIB ANColorPickerViewController.xib312561892#312561892#0(0"0(0#0#65"/Users/alex/Desktop/ANColorPicker/ANColorPickerViewController.xib8619236768#655"    cd /Users/alex/Desktop/ANColorPicker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/ANColorPickerViewController.nib /Users/alex/Desktop/ANColorPicker/ANColorPickerViewController.xib --sdk /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alex/Desktop/ANColorPicker/MainWindow.xib
+s312561892.454419
+e312561892.940044
+r1
+xCompileXIB
+x/Users/alex/Desktop/ANColorPicker/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312561892#312561892#0(0"0(0#0#48"/Users/alex/Desktop/ANColorPicker/MainWindow.xib8619781728#621"    cd /Users/alex/Desktop/ANColorPicker    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/MainWindow.nib /Users/alex/Desktop/ANColorPicker/MainWindow.xib --sdk /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/ANColorPicker.app/brightness.png brightness.png
+s312561892.906480
+e312561892.931079
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ANColorPicker.app/brightness.png
+xbrightness.png
+lSLF07#2@19"Copy brightness.png312561892#312561892#0(0"0(0#0#48"/Users/alex/Desktop/ANColorPicker/brightness.png8620077888#508"    cd /Users/alex/Desktop/ANColorPicker    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/ANColorPicker/brightness.png /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app0#
+
+CCpResource build/Debug-iphonesimulator/ANColorPicker.app/wheel.png wheel.png
+s312561892.904713
+e312561892.933187
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ANColorPicker.app/wheel.png
+xwheel.png
+lSLF07#2@14"Copy wheel.png312561892#312561892#0(0"0(0#0#43"/Users/alex/Desktop/ANColorPicker/wheel.png8620210240#503"    cd /Users/alex/Desktop/ANColorPicker    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/ANColorPicker/wheel.png /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app0#
+
+CGenerateDSYMFile /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app.dSYM /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/ANColorPicker
+r0
+
+CLd /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/ANColorPicker normal i386
+r0
+
+CProcessInfoPlistFile /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/Info.plist ANColorPicker-Info.plist
+s312561892.421338
+e312561892.454317
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/Info.plist
+xANColorPicker-Info.plist
+lSLF07#2@32"Process ANColorPicker-Info.plist312561892#312561892#0(0"0(0#0#58"/Users/alex/Desktop/ANColorPicker/ANColorPicker-Info.plist30681223440564324#512"    cd /Users/alex/Desktop/ANColorPicker    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ANColorPicker-Info.plist -genpkginfo /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch.gch ANColorPicker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312561892.940238
+e312561894.919175
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch.gch
+xANColorPicker_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ANColorPicker_Prefix.pch312561892#312561894#0(0"0(0#0#58"/Users/alex/Desktop/ANColorPicker/ANColorPicker_Prefix.pch8619919456#1930"    cd /Users/alex/Desktop/ANColorPicker    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-generated-files.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-own-target-headers.hmap -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-all-target-headers.hmap -iquote /Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/ANColorPicker-project-headers.hmap -F/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator -I/Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources/i386 -I/Users/alex/Desktop/ANColorPicker/build/ANColorPicker.build/Debug-iphonesimulator/ANColorPicker.build/DerivedSources -c /Users/alex/Desktop/ANColorPicker/ANColorPicker_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ANColorPicker_Prefix-dxrfsqltjbushwehltkthpjmasdj/ANColorPicker_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/ANColorPicker/build/Debug-iphonesimulator/ANColorPicker.app
+r0
+
