@@ -76,6 +76,7 @@
 
 
 - (void)dealloc {
+	[picker release];
     [super dealloc];
 }
 

@@ -25,11 +25,14 @@
 	float brightnessPCT;
 	CGPoint selectedPoint;
 	id <ANColorPickerDelegate> delegate;
+	BOOL drawsSquareIndicator;
 }
 
 @property (nonatomic, assign) id <ANColorPickerDelegate> delegate;
+@property (readwrite) BOOL drawsSquareIndicator;
 
 - (void)setBrightness:(float)_brightness;
 - (float)brightness;
+
 
 @end
