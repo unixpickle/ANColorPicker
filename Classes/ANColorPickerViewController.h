@@ -12,7 +12,10 @@
 @interface ANColorPickerViewController : UIViewController <ANColorPickerDelegate> {
 	ANColorPicker * picker;
 	UIView * colorView;
+	IBOutlet UISlider * brightness;
 }
+
+- (IBAction)brightnessChange:(id)sender;
 
 @end
 

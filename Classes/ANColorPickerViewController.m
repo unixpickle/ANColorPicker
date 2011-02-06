@@ -31,6 +31,7 @@
 
 - (void)colorChanged:(UIColor *)newColor {
 	[colorView setBackgroundColor:newColor];
+	[brightness setValue:[picker brightness]];
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -48,6 +49,9 @@
 	[self.view addSubview:[colorView autorelease]];
 }
 
+- (IBAction)brightnessChange:(id)sender {
+	[picker setBrightness:[brightness value]];
+}
 
 
 /*

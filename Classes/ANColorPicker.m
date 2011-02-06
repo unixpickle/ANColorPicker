@@ -88,6 +88,32 @@
 	}
 }
 
+- (void)setBrightness:(float)_brightness {
+	// manually adjust the brightness
+	[wheelAdjusted release];
+	ANImageBitmapRep * newImage = [[wheel imageBitmapRep] retain];
+	brightnessPCT = _brightness;
+	[newImage setBrightness:brightnessPCT];
+	wheelAdjusted = newImage;
+	
+	CGFloat color[4];
+	[wheelAdjusted getPixel:color atX:selectedPoint.x y:selectedPoint.y];
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	if (color[3] > 0.5) {
+		color[3] = 1;
+		UIColor * newColor = [UIColor colorWithRed:color[0]
+											 green:color[1] 
+											  blue:color[2] alpha:color[3]];
+		[delegate colorChanged:newColor];
+	}
+	[pool drain];
+	
+	[self setNeedsDisplay];
+}
+- (float)brightness {
+	return brightnessPCT;
+}
+
 
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

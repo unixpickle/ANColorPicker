@@ -26,5 +26,10 @@
 	CGPoint selectedPoint;
 	id <ANColorPickerDelegate> delegate;
 }
+
 @property (nonatomic, assign) id <ANColorPickerDelegate> delegate;
+
+- (void)setBrightness:(float)_brightness;
+- (float)brightness;
+
 @end
