@@ -198,10 +198,6 @@
 	pxl[2] = (float)((float)c[3]) / 255.0f;
 	pxl[3] = ((float)(c[0])) / 255.0f;
 	
-	if (pxl[3] <= 0) {
-		NSLog(@"Got %f from %d", pxl[3], c[0]);
-	}
-	
 	if (pxl[0] > 1) pxl[0] = 1;
 	if (pxl[1] > 1) pxl[1] = 1;
 	if (pxl[2] > 1) pxl[2] = 1;

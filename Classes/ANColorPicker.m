@@ -34,8 +34,11 @@
 		wheelAdjusted = [[wheel imageBitmapRep] retain];
 		selectedPoint.x = circleFrame.size.width;
 		selectedPoint.y = circleFrame.size.height;
+		brightnessPCT = 1;
 		
-		drawsSquareIndicator = NO;
+		[self setBrightness:brightnessPCT];
+		
+		drawsSquareIndicator = YES;
     }
     return self;
 }
@@ -63,10 +66,26 @@
 		selectedPoint.x = circleFrame.size.width;
 		selectedPoint.y = circleFrame.size.height;
 		
-		drawsSquareIndicator = NO;
+		brightnessPCT = 1;
+		
+		drawsSquareIndicator = YES;
+		
+		if ([aDecoder decodeObjectForKey:@"selectedPoint"]) {
+			selectedPoint = CGPointFromString([aDecoder decodeObjectForKey:@"selectedPoint"]);
+			[self setBrightness:[aDecoder decodeFloatForKey:@"brightness"]];
+		}
 		
 	}
 	return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+	// encode ourselves with a nice coder.
+	[super encodeWithCoder:aCoder];
+	[aCoder encodeObject:NSStringFromCGPoint(selectedPoint)
+				  forKey:@"selectedPoint"];
+	[aCoder encodeFloat:[self brightness]
+				  forKey:@"brightness"];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -75,26 +94,10 @@
 		CGPoint colorP = p;
 		colorP.x -= colorFrame.origin.x;
 		colorP.y -= colorFrame.origin.y;
-		[wheelAdjusted release];
-		ANImageBitmapRep * newImage = [[wheel imageBitmapRep] retain];
 		brightnessPCT = colorFrame.size.height - colorP.y;
 		brightnessPCT /= colorFrame.size.height;
-		[newImage setBrightness:brightnessPCT];
-		wheelAdjusted = newImage;
 		
-		CGFloat color[4];
-		[wheelAdjusted getPixel:color atX:selectedPoint.x y:selectedPoint.y];
-		NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-		if (color[3] > 0.5) {
-			color[3] = 1;
-			UIColor * newColor = [UIColor colorWithRed:color[0]
-												 green:color[1] 
-												  blue:color[2] alpha:color[3]];
-			[delegate colorChanged:newColor];
-		}
-		[pool drain];
-		
-		[self setNeedsDisplay];
+		[self setBrightness:brightnessPCT];
 	} else if (CGRectContainsPoint(circleFrame, p)) {
 		CGPoint colorP = p;
 		colorP.x -= circleFrame.origin.x;
@@ -113,6 +116,8 @@
 			UIColor * newColor = [UIColor colorWithRed:color[0]
 											 green:color[1] 
 											  blue:color[2] alpha:color[3]];
+			[lastColor release];
+			lastColor = [newColor retain];
 			[delegate colorChanged:newColor];
 		}
 		[self setNeedsDisplay];
@@ -145,6 +150,8 @@
 		UIColor * newColor = [UIColor colorWithRed:color[0]
 											 green:color[1] 
 											  blue:color[2] alpha:color[3]];
+		[lastColor release];
+		lastColor = [newColor retain];
 		[delegate colorChanged:newColor];
 	}
 	[pool drain];
@@ -161,6 +168,10 @@
 - (void)setDrawsSquareIndicator:(BOOL)b {
 	drawsSquareIndicator = b;
 	[self setNeedsDisplay];
+}
+
+- (UIColor *)color {
+	return lastColor;
 }
 
 // Only override drawRect: if you perform custom drawing.
@@ -193,6 +204,7 @@
 	[wheel release];
 	[brightness release];
 	[wheelAdjusted release];
+	[lastColor release];
     [super dealloc];
 }
 

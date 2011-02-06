@@ -11,8 +11,8 @@
 @class ANColorPickerViewController;
 
 @interface ANColorPickerAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    ANColorPickerViewController *viewController;
+    UIWindow * window;
+    ANColorPickerViewController * viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

@@ -16,6 +16,7 @@
 }
 
 - (IBAction)brightnessChange:(id)sender;
+- (void)saveState;
 
 @end
 

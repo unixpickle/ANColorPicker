@@ -19,6 +19,7 @@
 @interface ANColorPicker : UIView {
 	UIImage * wheel;
 	UIImage * brightness;
+	UIColor * lastColor;
 	ANImageBitmapRep * wheelAdjusted;
 	CGRect colorFrame;
 	CGRect circleFrame;
@@ -31,6 +32,9 @@
 @property (nonatomic, assign) id <ANColorPickerDelegate> delegate;
 @property (readwrite) BOOL drawsSquareIndicator;
 
+- (void)encodeWithCoder:(NSCoder *)aCoder;
+
+- (UIColor *)color;
 - (void)setBrightness:(float)_brightness;
 - (float)brightness;
 
