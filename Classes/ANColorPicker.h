@@ -27,10 +27,12 @@
 	CGPoint selectedPoint;
 	id <ANColorPickerDelegate> delegate;
 	BOOL drawsSquareIndicator;
+	BOOL drawsBrightnessChanger;
 }
 
 @property (nonatomic, assign) id <ANColorPickerDelegate> delegate;
 @property (readwrite) BOOL drawsSquareIndicator;
+@property (readwrite) BOOL drawsBrightnessChanger;
 
 - (void)encodeWithCoder:(NSCoder *)aCoder;
 

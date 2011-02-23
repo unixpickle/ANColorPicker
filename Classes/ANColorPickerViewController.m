@@ -60,6 +60,7 @@
 	[self.view addSubview:[colorView autorelease]];
 	// set the initial color
 	[colorView setBackgroundColor:[picker color]];
+	[picker setDrawsBrightnessChanger:YES];
 	
 	[brightness setValue:[picker brightness]];
 }

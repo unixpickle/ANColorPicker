@@ -72,7 +72,10 @@
 		
 		if ([aDecoder decodeObjectForKey:@"selectedPoint"]) {
 			selectedPoint = CGPointFromString([aDecoder decodeObjectForKey:@"selectedPoint"]);
-			[self setBrightness:[aDecoder decodeFloatForKey:@"brightness"]];
+			drawsBrightnessChanger = [aDecoder decodeBoolForKey:@"drawBright"];
+			if (drawsBrightnessChanger)
+				[self setBrightness:[aDecoder decodeFloatForKey:@"brightness"]];
+			[self setDrawsBrightnessChanger:drawsBrightnessChanger];
 		}
 		
 	}
@@ -86,6 +89,7 @@
 				  forKey:@"selectedPoint"];
 	[aCoder encodeFloat:[self brightness]
 				  forKey:@"brightness"];
+	[aCoder encodeBool:drawsBrightnessChanger forKey:@"drawBright"];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -162,6 +166,23 @@
 	return brightnessPCT;
 }
 
+- (BOOL)drawsBrightnessChanger {
+	return drawsBrightnessChanger;
+}
+
+- (void)setDrawsBrightnessChanger:(BOOL)b {
+	drawsBrightnessChanger = b;
+	if (!b) {
+		circleFrame.origin.x = self.frame.size.width / 2 - (circleFrame.size.width / 2);
+	} else {
+		circleFrame.origin.x = 0;
+		circleFrame.origin.y = (self.frame.size.height - (wheel.size.height / 2)) / 2.0;
+		circleFrame.size.width = wheel.size.width / 2.0;
+		circleFrame.size.height = wheel.size.height / 2.0;
+	}
+	[self setNeedsDisplay];
+}
+
 - (BOOL)drawsSquareIndicator {
 	return drawsSquareIndicator;
 }
@@ -179,7 +200,8 @@
 - (void)drawRect:(CGRect)rect {
     
 	// Draw the two parts of the picker
-	[brightness drawInRect:colorFrame];
+	if (drawsBrightnessChanger)
+		[brightness drawInRect:colorFrame];
 	[wheelAdjusted drawInRect:circleFrame];
 	
 	
