@@ -31,7 +31,7 @@
 		circleFrame.origin.y = (self.frame.size.height - (wheel.size.height / 2)) / 2.0;
 		circleFrame.size.width = wheel.size.width / 2.0;
 		circleFrame.size.height = wheel.size.height / 2.0;
-		wheelAdjusted = [[wheel imageBitmapRep] retain];
+        wheelAdjusted = [[ANImageBitmapRep alloc] initWithImage:wheel];
 		selectedPoint.x = circleFrame.size.width;
 		selectedPoint.y = circleFrame.size.height;
 		brightnessPCT = 1;
@@ -44,7 +44,7 @@
 }
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
-	if (self = [super initWithCoder:aDecoder]) {
+	if ((self = [super initWithCoder:aDecoder])) {
 		
 		CGRect frame = self.frame;
 		frame.size.width = 231;
@@ -62,7 +62,7 @@
 		circleFrame.origin.y = (self.frame.size.height - (wheel.size.height / 2)) / 2.0;
 		circleFrame.size.width = wheel.size.width / 2.0;
 		circleFrame.size.height = wheel.size.height / 2.0;
-		wheelAdjusted = [[wheel imageBitmapRep] retain];
+        wheelAdjusted = [[ANImageBitmapRep alloc] initWithImage:wheel];
 		selectedPoint.x = circleFrame.size.width;
 		selectedPoint.y = circleFrame.size.height;
 		
@@ -110,22 +110,20 @@
 		colorP.y *= 2;
 		
 		
-		CGFloat color[4];
-		[wheelAdjusted getPixel:color atX:colorP.x y:colorP.y];
-		NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-		if (color[3] > 0.9) {
-			color[3] = 1;
+        BMPixel pixel = [wheelAdjusted getPixelAtPoint:BMPointMake(colorP.x, colorP.y)];
+		NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+		if (pixel.alpha > 0.9) {
+			pixel.alpha = 1.0;
 			selectedPoint.x = colorP.x;
 			selectedPoint.y = colorP.y;
-			UIColor * newColor = [UIColor colorWithRed:color[0]
-											 green:color[1] 
-											  blue:color[2] alpha:color[3]];
+            
+            UIColor *newColor = [UIColor colorWithRed:pixel.red green:pixel.green blue:pixel.blue alpha:pixel.alpha];
 			[lastColor release];
 			lastColor = [newColor retain];
 			[delegate colorChanged:newColor];
 		}
-		[self setNeedsDisplay];
 		[pool drain];
+		[self setNeedsDisplay];
 	}
 }
 
@@ -137,29 +135,26 @@
 	// send the message to our delegate
 	
 	[wheelAdjusted release];
-	ANImageBitmapRep * newImage = [[wheel imageBitmapRep] retain];
+    ANImageBitmapRep *newImage = [[ANImageBitmapRep alloc] initWithImage:wheel];
 	brightnessPCT = _brightness;
 	[newImage setBrightness:brightnessPCT];
 	wheelAdjusted = newImage;
 	
 	// get the color that we have selected, and apply our brightness.
 	// then send a nice color message.
-	CGFloat color[4];
-	[wheelAdjusted getPixel:color atX:selectedPoint.x y:selectedPoint.y];
+    BMPixel pixel = [wheelAdjusted getPixelAtPoint:BMPointMake(selectedPoint.x, selectedPoint.y)];
 	// use autorelease so that our autoreleased colors
 	// do in fact get released.
-	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-	if (color[3] > 0.9) {
-		color[3] = 1;
-		UIColor * newColor = [UIColor colorWithRed:color[0]
-											 green:color[1] 
-											  blue:color[2] alpha:color[3]];
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	if (pixel.alpha > 0.9) {
+		pixel.alpha = 1.0;
+        
+        UIColor *newColor = [UIColor colorWithRed:pixel.red green:pixel.green blue:pixel.blue alpha:pixel.alpha];
 		[lastColor release];
 		lastColor = [newColor retain];
 		[delegate colorChanged:newColor];
 	}
 	[pool drain];
-	
 	[self setNeedsDisplay];
 }
 - (float)brightness {
@@ -202,8 +197,7 @@
 	// Draw the two parts of the picker
 	if (drawsBrightnessChanger)
 		[brightness drawInRect:colorFrame];
-	[wheelAdjusted drawInRect:circleFrame];
-	
+	[[wheelAdjusted image] drawInRect:circleFrame];
 	
 	// draw a square around selected point
 	if (drawsSquareIndicator) {
