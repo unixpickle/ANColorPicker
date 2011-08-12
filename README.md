@@ -1,4 +1,4 @@
-# Depreciated
+# Deprecated
 
 Find the more advanced project at [RSully/RSColorPicker](https://github.com/RSully/RSColorPicker). This project (ANColorPicker) uses images and requires a specific size for the color picker views, whereas RSColorPicker is dynamic in both size and generation. 
 
